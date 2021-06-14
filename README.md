@@ -24,7 +24,7 @@ In this Project, we will Design web applications for the Prediction of some of t
 | ----------- | ----------- | ----------- | ----------- |
 | Crop Recommendation | Agriculture | [Crop-data](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) | Machine Learning |
 | Fertilizer Prediction | Agriculture |[fertilizer-data](https://github.com/Gladiator07/Harvestify/blob/master/Data-processed/fertilizer.csv) | Machine Learning |
-| Crop Prediction in Inda | Agriculture |[Crop-production-data](https://www.kaggle.com/abhinand05/crop-production-in-india) | Machine Learning |
+| Crop Production in Inda | Agriculture |[Crop-production-data](https://www.kaggle.com/abhinand05/crop-production-in-india) | Machine Learning |
 | Plant Disease| Agriculture |[plant-disease-data](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset) | Deep Learning |
 | Heart Failure Prediction| Healthcare |[heart-data](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) | Machine Learning & Data Analysis |
 | Stroke Prediction | Healthcare |[stroke-data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) | Machine Learning & Data Analysis |
