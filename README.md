@@ -33,5 +33,6 @@ In this Project, we will Design web applications for the Prediction of some of t
 
 ## Detailed Documentation 
 ***Please find the detailed documentation [here](https://www.notion.so/hdvee/Summer-Project-2021-Healthify-AgriTech-5c24bfa924e14cb39d20c7744bbd00ba)***
+***The Public link for using the services is [here](https://techvee.live/healthify-agritech.html)***
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
