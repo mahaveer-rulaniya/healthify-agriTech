@@ -1,0 +1,2 @@
+# healthify-agriTech
+ In this Project we will Design web applications for the Prediction of some of the common problems and issues faced  in Agricultural and Healthcare sector by the use of Data Analysis and Machine learning. After Building the model for the prediction we will develop web application for the models and then deploy them on the Cloud Technologies for the public use. After deploying the models we will integrate all the web application on the website.
