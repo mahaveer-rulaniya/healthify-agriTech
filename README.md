@@ -25,6 +25,10 @@ The Projects is based on the Idea of Addressing real-life problems in the Agricu
    
    - For the Life expectancy application user have to input the features, since the observations are based on different countries, it will be easier for a country to determine the predicting factor which is contributing to the lower value of life expectancy. This will help in suggesting a country which area should be given importance in order to efficiently improve the life expectancy of its population.
 
+### Go to - 
+- [Detailed Documentation](https://github.com/mahaveer-rulaniya/healthify-agriTech/wiki)
+- [Deployment of Models using web-application](https://github.com/mahaveer-rulaniya/healthify-agriTech/wiki/Deployment-of-Models-using-Flask-Web-application)
+
 ## Technologies to be used 
 1. Machine learning
 2. Deep Learning
