@@ -5,25 +5,25 @@
 The Projects is based on the Idea of Addressing real-life problems in the Agricultural sector and Healthcare sector. It can be also considered as the Minimal Viable Product.
 
 ## Motivation
-- Farming & Healthcare System are major sectors that influences a country’s economic growth and Human Resources.
+- Farming & Healthcare System are major sectors that influence a country’s economic growth and Human Resources.
 
-- In country like India, majority of the population is dependent on agriculture for their livelihood. Many new technologies, such as Machine Learning and Deep Learning, are being implemented into agriculture so that it is easier for farmers to grow and maximize their yield.
+- In-country like India, the majority of the population is dependent on agriculture for their livelihood. Many new technologies, such as Machine Learning and Deep Learning, are being implemented into agriculture so that it is easier for farmers to grow and maximize their yield.
 
-- In Recent times of Panademic the need of Heathcare to adopt Technology to work efficiently has encountered.
+- In Recent times of Pandemic the need for Healthcare to adopt Technology to work efficiently has encountered.
 
 - **In this project, We present a website in which the following applications are implemented; Crop recommendation, Fertilizer recommendation and Plant disease prediction respectively in the domain of Agriculture.**
 
   - In the crop recommendation application, the user can provide the soil data from their side and the application will predict which crop should the user grow.
 
-  - For the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has excess of and will recommend fertilizer to be given to soil.
+  - For the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has an excess of and will recommend fertilizer to be given to soil.
 
-  - For the last application, that is the plant disease prediction application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
+  - For the last application, which is the plant disease prediction application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
 
 - **For the Healthcare system we have Stroke Prediction and Life Expectancy of a persona according to the provided inputs.**
 
-   - For Stroke Prediction application, the user can input the physical and mental state, and the application will predict the probability of  whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status.
+   - For the Stroke Prediction application, the user can input the physical and mental state, and the application will predict the probability of whether a patient is likely to get a stroke based on the input parameters like gender, age, various diseases, and smoking status.
    
-   - For the Life expectancy application user have to input the features, since the observations are based on different countries, it will be easier for a country to determine the predicting factor which is contributing to lower value of life expectancy. This will help in suggesting a country which area should be given importance in order to efficiently improve the life expectancy of its population.
+   - For the Life expectancy application user have to input the features, since the observations are based on different countries, it will be easier for a country to determine the predicting factor which is contributing to the lower value of life expectancy. This will help in suggesting a country which area should be given importance in order to efficiently improve the life expectancy of its population.
 
 ## Technologies to be used 
 1. Machine learning
