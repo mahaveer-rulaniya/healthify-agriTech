@@ -49,7 +49,7 @@ In this Project, we will Design web applications for the Prediction of some of t
 | ----------- | ----------- | ----------- | ----------- |
 | Crop Recommendation | Agriculture | [Crop-data](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) | Machine Learning |
 | Fertilizer Prediction | Agriculture |[fertilizer-data](https://www.kaggle.com/gdabhishek/fertilizer-prediction) | Machine Learning |
-| Plant Disease| Agriculture |[plant-disease-data](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset) | Deep Learning |
+| Plant Disease| Agriculture |[plant-disease-data](https://www.kaggle.com/emmarex/plantdisease) | Deep Learning |
 | Stroke Prediction | Healthcare |[stroke-data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) | Machine Learning & Data Analysis |
 | Life Expectancy| Healthcare |[exptency-data](https://www.kaggle.com/kumarajarshi/life-expectancy-who) | Machine Learning & Data Analysis |
 
