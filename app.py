@@ -16,6 +16,15 @@ def predict():
     '''
     temp_array = list ()
     if request.method == "POST":
+
+        temp = int(request.form['Temparature'])
+        humid = int(request.form['Humidity'])
+        mois = int(request.form['Moisture'])
+        nit = int(request.form['Nitrogen'])
+
+        pho = int(request.form['Phosphorous'])
+        temp_array = temp_array + [temp, humid, mois, nit, pho]
+
         soil_type = request.form['Soil-Type']
         if soil_type == 'Soil Type_Black':
             temp_array = temp_array + [1, 0, 0, 0, 0]
@@ -52,24 +61,14 @@ def predict():
         elif crop_type == 'Crop Type_Wheat':
             temp_array = temp_array + [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 
-        temp = int(request.form['Temparature'])
-        humid = int(request.form['Humidity'])
-        mois = int(request.form['Moisture'])
-        nit = int(request.form['Nitrogen'])
-
-        pho = int(request.form['Phosphorous'])
-
-        temp_array = temp_array + [temp , humid , mois , nit , pho]
-
-
 
 
       #  int_features = [int ( x ) for x in request.form.values ()]
         final_features = np.array([temp_array])
         prediction = model.predict( final_features )
-        output = prediction
+        output = prediction[0]
 
-        return render_template ( 'result.html', prediction_text=' Recommended Fertilizer is {}'.format ( output ) )
+        return render_template ( 'result.html', prediction_text=' Recommended Fertilizer is {}'.format( output ) )
 
     else:
         return render_template('index.html')
@@ -82,7 +81,7 @@ def predict_api():
     data = request.get_json(force=True)
     prediction = model.predict([np.array(list(data.values()))])
 
-    output = prediction
+    output = prediction[0]
     return jsonify(output)
 
 if __name__ == "__main__":
