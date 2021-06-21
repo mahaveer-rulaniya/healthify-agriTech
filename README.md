@@ -4,7 +4,7 @@
 ### 🧨To use the Application click [here](https://techvee.live/healthify-agritech.html)
 
 ## ✨Theme of the Project
-In the crop recommendation application, the user can provide the soil data from their side and the application will predict which crop should the user grow.
+In the Fertilizer recommendation application, the user can provide the soil data from their side and the application will predict which crop should the user grow.
 
 
 ### 🔑Go to - 
