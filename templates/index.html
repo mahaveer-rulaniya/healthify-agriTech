@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Fertilizer Recommender App</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='heading_first'>Fertilizer Recommendation Application</span></h2>
+            <div class='description'>
+    		</div>
+    	</div>
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            <!-- Banner - 1 -->
+            <div class='banner-left'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-up">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='1.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='2.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='3.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='4.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='5.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='6.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='7.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-8 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='8.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Prediction Form -->
+            <div class='div2'>
+                <form action="{{ url_for('predict') }}" method="POST">
+                    <!-- Form options -->
+
+                    <input class="form-input" type="text" name="Temparature" placeholder="Temparature eg. 30"><br>
+                    <input class="form-input" type="text" name="Humidity" placeholder="Humidity eg. 60"><br>
+                    <input class="form-input" type="text" name="Moisture" placeholder="Moisture eg. 40"><br>
+                    <input class="form-input" type="text" name="Nitrogen" placeholder="Nitrogen eg. 20"><br>
+                    <input class="form-input" type="text" name="Phosphorous" placeholder="Phosphorous eg. 15"><br>
+
+                    <!-- Form options -->
+                    <select class="form-input align-center" name="Soil-Type">
+                        <option value="none">Select Soil Type</option>
+                        <option value="Soil Type_Loamy">Loamy</option>
+                        <option value="Soil Type_Sandy">Sandy</option>
+                        <option value="Soil Type_Clayey">Clayey</option>
+                        <option value="Soil Type_Black">Black</option>
+                        <option value="Soil Type_Red">Red</option>
+                    </select><br>
+                    <!-- Form options 2 -->
+                    <select class="form-input align-center" name="Crop-Type">
+                        <option value="none">Select Crop Type</option>
+                        <option value="Crop Type_Sugarcane">Sugarcane</option>
+                        <option value="Crop Type_Cotton">Cotton</option>
+                        <option value="Crop Type_Millets">Millets</option>
+                        <option value="Crop Type_Pulses">Pulses</option>
+                        <option value="Crop Type_Paddy">Paddy</option>
+                        <option value="Crop Type_Wheat">Wheat</option>
+                        <option value="Crop Type_Tobacco">Tobacco</option>
+                        <option value="Crop Type_Oil seeds">Oil seeds</option>
+                        <option value="Crop Type_Ground Nuts">Ground Nuts</option>
+                        <option value="Crop Type_Barley">Barley</option>
+                        <option value="Crop Type_Maize">Maize</option>
+                    </select><br>
+
+
+			<input type="submit" class="myButton" value="Predict">
+        	</form>
+            </div>
+
+            <!-- Banner - 2 -->
+            <div class='banner-right'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-down">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='1.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='2.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='3.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='4.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='5.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='6.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='7.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+                        <!-- Image-8 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{{ url_for('static', filename='8.jpg') }}" alt="Healthcare & Agriculture">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/mahaveer-rulaniya/healthify-agriTech"><i class="fab fa-github fa-lg contact-icon"></i></a>
+
+           </div>
+           <p class='footer-description'>Made with ❤️ Summer Project 2021</p>
+       </div>
+
+    </body>
+</html>
