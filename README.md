@@ -17,7 +17,7 @@ The Projects is based on the Idea of Addressing real-life problems in the Agricu
 
   - For the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has an excess of and will recommend fertilizer to be given to soil.
 
-  - For the last application, which is the plant disease prediction application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
+  - For the last application, which is the [plant disease prediction](https://github.com/mahaveer-rulaniya/plant-disease) application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
 
 - 🎗**For the Healthcare system we have Stroke Prediction and Life Expectancy of a persona according to the provided inputs.**
 
