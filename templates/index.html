@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Machine Learning API</title>
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<form action="{{ url_for('predict') }}"method="post">
+
+<div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        <h3>Welcome</h3>
+                        <p>You are 30 seconds away from Predicting!</p>
+                        <input type="submit" name="" value="Home Page"/><br/>
+                    </div>
+                    <div class="col-md-9 register-right">
+                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="https://techvee.live/healthify-agritech.html" role="tab" aria-controls="home" aria-selected="true">Prediction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Results</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading">Prediction App</h3>
+                                <div class="row register-form">
+                                    <div class="col-md-6">
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="age" placeholder="Age of the patient" required="required" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="hypertension" placeholder="Hypertension (0:No and 1:Yes)" required="required" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="heart_disease" placeholder="Heart Disease (0:No and 1:Yes)" required="required" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control"  name="avg_glucose_level" placeholder="Glucose level  eg. 100" required="required" />
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="bmi" placeholder="BMI eg. 25" required="required" />
+                                        </div>
+                                        <div class="form-group" >
+                                            <select class="form-control", name = "Gender">
+                                                <option class="hidden"  selected disabled>Gender</option>
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control", name = "Martial Status">
+                                                <option class="hidden"  selected disabled>Martial Status</option>
+                                                <option>Married</option>
+                                                <option>Not Married</option>
+
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <select class="form-control", name = "Work Type">
+                                                <option class="hidden"  selected disabled>Work Type</option>
+                                                <option>Govt Job</option>
+                                                <option>Never Worked</option>
+                                                <option>Private Job</option>
+                                                <option>Self Employed</option>
+                                                <option>Student/Children</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <select class="form-control", name = "Residence Type">
+                                                <option class="hidden"  selected disabled>Residence Type</option>
+                                                <option>Rural</option>
+                                                <option>Urban</option>
+
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <select class="form-control", name = "Smoking Status">
+                                                <option class="hidden"  selected disabled>Smoking Status</option>
+                                                <option>Dont want to Disclose</option>
+                                                <option>Formerly Smoked</option>
+                                                <option>Never Smoked</option>
+                                                <option>Smokes</option>
+                                            </select>
+                                        </div>
+
+
+                                        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+
+
+
+                                       </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+    </form>
+   <br>
+   <br>
+   {{ prediction_text }}
+            </div>
+
+
+
+</body>
+</html>
