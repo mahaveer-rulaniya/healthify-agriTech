@@ -1,6 +1,13 @@
 # Healthify AgriTech
 *All the details regarding the Summer Project are present here*
 
+## All the code and Documentation of -
+#### 📌[Crop Recommendation using Machine Learning](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/crop-recommendation)
+#### 📌[Fertilizer Prediction Application](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/fertilizer-recommendation)
+#### 📌[Plant Disease Identification](https://github.com/mahaveer-rulaniya/plant-disease)
+#### 📌[Stroke Prediction App](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/stroke-prediction)
+#### 📌[Life Expectancy Calculation](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/Life-Expectancy)
+
 ## ✨Theme of the Project
 The Projects is based on the Idea of Addressing real-life problems in the Agricultural sector and Healthcare sector. It can be also considered as the Minimal Viable Product.
 
