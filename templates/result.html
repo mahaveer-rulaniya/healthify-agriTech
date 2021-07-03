@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Predictor App</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='heading_first'>Prediction Application for Agriculture & Healthcare</span></h2>
+            <div class='description'>
+
+    		</div>
+    	</div>
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/mahaveer-rulaniya/healthify-agriTech"><i class="fab fa-github fa-lg contact-icon"></i></a>
+
+           </div>
+           <p class='footer-description'>Made with ❤️ Summer Project 2021</p>
+       </div>
+
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            <!-- Banner - 1 -->
+
+
+            <!-- Prediction Form -->
+            <div class='div2'>
+            <h2>
+                {{ prediction_text }}
+            </h2>
+
+                <h5>
+                    Life expectancy is a statistical measure of the average time
+                    an organism is expected to live, based on the year of its birth,
+                    its current age, and other demographic factors.
+                </h5>
+                <p>
+                    -----------------------------------------------------------
+                </p>
+                <h5>
+                    Life expectancy is affected by many factors such as: socioeconomic status, including employment, income, education and economic wellbeing; the quality of the health system and the ability of people to access it; health behaviours
+                    such as tobacco and excessive alcohol consumption, poor nutrition and lack of exercise etc
+                </h5>
+            </div>
+            <!-- Banner - 2 -->
+
+        </div>
+
+        <!-- Footer -->
+
+    </body>
+</html>
