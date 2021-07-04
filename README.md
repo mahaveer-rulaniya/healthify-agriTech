@@ -82,4 +82,13 @@ In this Project, we will Design web applications for the Prediction of some of t
 
 ***The Public link for using the services is [here](https://techvee.live/healthify-agritech.html)***
 
+## Contributors
+
+
+ | Mahaveer Rulaniya | Kapil Kunt | Kailash Thalore | Jayant Agarwal | Arvind | Abhishek Jangid | Vivek Bhati |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
+|  <a href="url"><img class="circular--square" src="https://user-images.githubusercontent.com/65475928/124373658-d3764e00-dcb1-11eb-8062-1c8a0b02090b.jpg" height="auto" width="200" style="border-radius:50%"></a> | <a href="url"><img src="https://user-images.githubusercontent.com/65475928/124373315-ffdc9b00-dcae-11eb-828c-f53c165681fd.jpg" height="auto" width="200" style="border-radius:50%"></a> | <a href="url"><img src="https://user-images.githubusercontent.com/65475928/124373220-fb63b280-dcad-11eb-877a-c1bc3c32cefe.jpeg" height="auto" width="200" style="border-radius:50%"></a> |<a href="url"><img src="https://user-images.githubusercontent.com/65475928/124373197-d3744f00-dcad-11eb-8936-7f57e13ccf6f.jpeg" height="110" width="200" style="border-radius:50%"></a>   | <a href="url"><img src="https://user-images.githubusercontent.com/65475928/124373203-db33f380-dcad-11eb-9d56-18d548dce1a5.jpg" height="125" width="200" style="border-radius:50%"></a>   | <a href="url"><img src="https://user-images.githubusercontent.com/65475928/124373074-09650380-dcad-11eb-82d3-486d1bb58079.jpg" height="auto" width="200" style="border-radius:50%"></a>   | <a href="url"><img src="https://user-images.githubusercontent.com/65475928/124373193-cd7e6e00-dcad-11eb-8067-eff1b72a6f22.jpg" height="125" width="200" style="border-radius:50%"></a>  |
+|+916377371776|+919571253645 | +919461062102| +919413858457 | +916376300522|+917425965601 |+916376927827|
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
