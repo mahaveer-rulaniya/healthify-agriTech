@@ -1,18 +1,27 @@
 # Healthify AgriTech
 *All the details regarding the Summer Project are present here*
 
-## All the code and Documentation of -
-#### 📌[Crop Recommendation using Machine Learning](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/crop-recommendation)
-#### 📌[Fertilizer Prediction Application](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/fertilizer-recommendation)
-#### 📌[Plant Disease Identification](https://github.com/mahaveer-rulaniya/plant-disease)
-#### 📌[Stroke Prediction App](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/stroke-prediction)
-#### 📌[Life Expectancy Calculation](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/Life-Expectancy)
+
+![Project](https://user-images.githubusercontent.com/65475928/124371118-5b515d80-dc9c-11eb-918d-d249635b8d6f.png)
+
+
+## Get the Code and Details of Respective Applications -
+
+
+| Name | Domain | Repository Link | Use Application |
+| ----------- | ----------- | ----------- | ----------- |
+| 📌Crop Recommendation | Agriculture | [Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/crop-recommendation) | [Click Here to Use Application](https://crop-recommendation-agritech.herokuapp.com/) |
+| 📌Fertilizer Prediction | Agriculture |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/fertilizer-recommendation) | [Click Here to Use Application](https://fertilizer-recommend.herokuapp.com/) |
+| 📌Plant Disease| Agriculture |[Click Here to view code](https://github.com/mahaveer-rulaniya/plant-disease) |[Click Here to View Project](https://github.com/mahaveer-rulaniya/plant-disease) |
+| 📌Stroke Prediction | Healthcare |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/stroke-prediction) | [Click Here to Use Application](https://stroke-pred-app.herokuapp.com/) |
+| 📌Life Expectancy| Healthcare |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/Life-Expectancy) | [Click Here to Use Application](https://life-expectancy-app.herokuapp.com/) |
 
 ## ✨Theme of the Project
 The Projects is based on the Idea of Addressing real-life problems in the Agricultural sector and Healthcare sector. It can be also considered as the Minimal Viable Product.
 
 ## 🧐Motivation
 - Farming & Healthcare System are major sectors that influence a country’s economic growth and Human Resources.
+
 
 - In-country like India, the majority of the population is dependent on agriculture for their livelihood. Many new technologies, such as Machine Learning and Deep Learning, are being implemented into agriculture so that it is easier for farmers to grow and maximize their yield.
 
@@ -21,8 +30,16 @@ The Projects is based on the Idea of Addressing real-life problems in the Agricu
 - 🌿**In this project, We present a website in which the following applications are implemented; Crop recommendation, Fertilizer recommendation and Plant disease prediction respectively in the domain of Agriculture.**
 
   - In the crop recommendation application, the user can provide the soil data from their side and the application will predict which crop should the user grow.
+  
+   ![2](https://user-images.githubusercontent.com/65475928/124371532-33fc8f80-dca0-11eb-99c3-a5dc1789846a.jpeg)
+  <!---<a href="url"><img src="https://user-images.githubusercontent.com/65475928/124371337-7624d180-dc9e-11eb-927e-c2eb362603a1.jpeg" align="center" height="500" width="700" ></a>--->
+
 
   - For the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has an excess of and will recommend fertilizer to be given to soil.
+  
+
+  ![3](https://user-images.githubusercontent.com/65475928/124371519-129ba380-dca0-11eb-8d41-2dd6f26f7839.jpeg)
+
 
   - For the last application, which is the [plant disease prediction](https://github.com/mahaveer-rulaniya/plant-disease) application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
 
@@ -62,7 +79,6 @@ In this Project, we will Design web applications for the Prediction of some of t
 
 
 ## 🪁Detailed Documentation 
-***Please find the detailed documentation [here](https://www.notion.so/hdvee/Summer-Project-2021-Healthify-AgriTech-5c24bfa924e14cb39d20c7744bbd00ba)***
 
 ***The Public link for using the services is [here](https://techvee.live/healthify-agritech.html)***
 
