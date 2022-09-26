@@ -10,7 +10,7 @@
 ## 🔑Get the Code and Details of Respective Applications -
 
 
-| Name | Domain | Repository Link | Use Application |
+| Name | Domain | Repository Link | use Application |
 | ----------- | ----------- | ----------- | ----------- |
 | 📌Crop Recommendation | Agriculture | [Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/crop-recommendation) | [Click Here to Use Application](https://crop-recommendation-agritech.herokuapp.com/) |
 | 📌Fertilizer Prediction | Agriculture |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/fertilizer-recommendation) | [Click Here to Use Application](https://fertilizer-recommend.herokuapp.com/) |
