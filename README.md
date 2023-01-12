@@ -12,11 +12,11 @@
 
 | Name | Domain | Repository Link | use Application |
 | ----------- | ----------- | ----------- | ----------- |
-| 📌Crop Recommendation | Agriculture | [Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/crop-recommendation) | [Click Here to Use Application](https://crop-recommendation-agritech.herokuapp.com/) |
-| 📌Fertilizer Prediction | Agriculture |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/fertilizer-recommendation) | [Click Here to Use Application](https://fertilizer-recommend.herokuapp.com/) |
+| 📌Crop Recommendation | Agriculture | [Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/crop-recommendation) | [Click Here to Use Application](https://crop-recommend.onrender.com) |
+| 📌Fertilizer Prediction | Agriculture |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/fertilizer-recommendation) | [Click Here to Use Application](https://fertilizer-recommendation.onrender.com) |
 | 📌Plant Disease| Agriculture |[Click Here to view code](https://github.com/mahaveer-rulaniya/plant-disease) |[Click Here to View Project](https://github.com/mahaveer-rulaniya/plant-disease) |
-| 📌Stroke Prediction | Healthcare |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/stroke-prediction) | [Click Here to Use Application](https://stroke-pred-app.herokuapp.com/) |
-| 📌Life Expectancy| Healthcare |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/Life-Expectancy) | [Click Here to Use Application](https://life-expectancy-app.herokuapp.com/) |
+| 📌Stroke Prediction | Healthcare |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/stroke-prediction) | [Click Here to Use Application](https://stroke-prediction-1s9z.onrender.com) |
+| 📌Life Expectancy| Healthcare |[Click Here to view code](https://github.com/mahaveer-rulaniya/healthify-agriTech/tree/Life-Expectancy) | [Click Here to Use Application](https://life-expectancy-prediction.onrender.com) |
 
 ## ✨Theme of the Project
 The Projects is based on the Idea of Addressing real-life problems in the Agricultural sector and Healthcare sector. It can be also considered as the Minimal Viable Product.
